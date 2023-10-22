@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(38, 140, 48),yellow,black);
+    padding-top: 5%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+section>article
+{
+    height: 470px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: 40%;
+    box-shadow: 0px 0px 40px black;
+}
+section>article>.profilepic
+{
+    height: 140px;
+    width: 140px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-image: url("./profilepic.webp");
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px black;
+
+}
+section>article>.info
+{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: 1px; */
+    line-height: 23px;
+    /* background-color:aqua; */
+}
+section>article>.info>h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px greenyellow;
+
+}
+section>article>.info>h2{
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+section>article>.info>h3{
+    font-size: 13px;
+    font-weight: lighter;
+}
+section>article>.btn{
+    /* padding-top: 15%; */
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+section>article>.btn>button
+{
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    background: transparent;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 15px;
+}
+section>article>.btn>button:hover{
+    color: white;
+    cursor: pointer;
+}
